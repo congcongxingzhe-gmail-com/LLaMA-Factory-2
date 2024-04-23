@@ -30,7 +30,16 @@
     }
   },
   "ai": {
-    "file_name": "ai.json"
+    "file_name": "ai.json",
+    "columns": {
+    "messages": "conversations"
+  },
+  "tags": {
+    "role_tag": "from",
+    "content_tag": "value",
+    "user_tag": "user",
+    "assistant_tag": "assistant"
+  }
   },
   "oaast_sft_zh": {
     "file_name": "oaast_sft_zh.json",
